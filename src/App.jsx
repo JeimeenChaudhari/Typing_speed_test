@@ -171,7 +171,7 @@ export default function App() {
 
   return (
     <>
-      <img className="background-img" src="/Moon.jpg" alt="mountain background" />
+      <img className="background-img" src="./Moon.jpg" alt="Moon Background" />
       <div className="background-overlay"></div>
       <div className={`typing-app${darkMode ? " dark" : ""}`}> 
         <Confetti show={showModal} />
